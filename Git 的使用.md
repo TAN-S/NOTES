@@ -195,9 +195,9 @@ $ git commit -m "wrote a readme file"
 
 #### 多人协作
 
-1. 用`git push origin branch-name`推送自己的修改
+1. 用`$ git push origin 分支名`推送自己的修改
 
-      > 可以用`git remote -v`查看远程库信息
+      > 可以用`$ git remote -v`查看远程库信息
 
 2. 如果推送失败，并出现以下：
 
