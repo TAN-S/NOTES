@@ -209,7 +209,7 @@ $ git commit -m "wrote a readme file"
       hint: See the 'Note about fast-forwards' in 'git push --help' for details.
       ```
 
-      就说明远程的版本比本地版本更新，因此二者存在冲突，此时，需要在 push 之前，使用  [\$ git pull origin 分支名 ](https://git-scm.com/docs/git-pull) 试图合并
+      就说明远程的版本比本地版本更新，因此二者存在冲突，此时，需要在 push 之前，使用  [\$ git pull origin 分支名 ](https://git-scm.com/docs/git-pull) 试图合并，若还不行，就使用`$ git pull --rebase origin master`
 
       > 如果`git pull`提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream branch-name origin/branch-name`
 
